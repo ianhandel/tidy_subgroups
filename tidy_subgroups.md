@@ -68,7 +68,7 @@ result <- filters %>%
 result %>%
   select(filter, n, term, estimate, std.error, p.value) %>%
   mutate_if(is_double, round, 3) %>% 
-  gt::gt(groupname_col = vars(filter)) 
+  gt::gt(groupname_col = vars(filter))
 ```
 
 <!--html_preserve-->
@@ -76,7 +76,7 @@ result %>%
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#hqewynlhia .gt_table {
+#tswyizjlej .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -95,13 +95,13 @@ result %>%
   /* table.border.top.color */
 }
 
-#hqewynlhia .gt_heading {
+#tswyizjlej .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#hqewynlhia .gt_title {
+#tswyizjlej .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -112,7 +112,7 @@ result %>%
   border-bottom-width: 0;
 }
 
-#hqewynlhia .gt_subtitle {
+#tswyizjlej .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -123,7 +123,7 @@ result %>%
   border-top-width: 0;
 }
 
-#hqewynlhia .gt_bottom_border {
+#tswyizjlej .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -132,7 +132,7 @@ result %>%
   /* heading.border.bottom.color */
 }
 
-#hqewynlhia .gt_column_spanner {
+#tswyizjlej .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -140,7 +140,7 @@ result %>%
   padding-bottom: 4px;
 }
 
-#hqewynlhia .gt_col_heading {
+#tswyizjlej .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -153,11 +153,11 @@ result %>%
   margin: 10px;
 }
 
-#hqewynlhia .gt_sep_right {
+#tswyizjlej .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#hqewynlhia .gt_group_heading {
+#tswyizjlej .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -181,7 +181,7 @@ result %>%
   vertical-align: middle;
 }
 
-#hqewynlhia .gt_empty_group_heading {
+#tswyizjlej .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -205,29 +205,29 @@ result %>%
   vertical-align: middle;
 }
 
-#hqewynlhia .gt_striped {
+#tswyizjlej .gt_striped {
   background-color: #f2f2f2;
 }
 
-#hqewynlhia .gt_row {
+#tswyizjlej .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#hqewynlhia .gt_stub {
+#tswyizjlej .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#hqewynlhia .gt_stub.gt_row {
+#tswyizjlej .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#hqewynlhia .gt_summary_row {
+#tswyizjlej .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -236,13 +236,13 @@ result %>%
   /* summary_row.text_transform */
 }
 
-#hqewynlhia .gt_first_summary_row {
+#tswyizjlej .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#hqewynlhia .gt_table_body {
+#tswyizjlej .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -257,50 +257,50 @@ result %>%
   /* field.border.bottom.color */
 }
 
-#hqewynlhia .gt_footnote {
+#tswyizjlej .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#hqewynlhia .gt_sourcenote {
+#tswyizjlej .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#hqewynlhia .gt_center {
+#tswyizjlej .gt_center {
   text-align: center;
 }
 
-#hqewynlhia .gt_left {
+#tswyizjlej .gt_left {
   text-align: left;
 }
 
-#hqewynlhia .gt_right {
+#tswyizjlej .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#hqewynlhia .gt_font_normal {
+#tswyizjlej .gt_font_normal {
   font-weight: normal;
 }
 
-#hqewynlhia .gt_font_bold {
+#tswyizjlej .gt_font_bold {
   font-weight: bold;
 }
 
-#hqewynlhia .gt_font_italic {
+#tswyizjlej .gt_font_italic {
   font-style: italic;
 }
 
-#hqewynlhia .gt_super {
+#tswyizjlej .gt_super {
   font-size: 65%;
 }
 
-#hqewynlhia .gt_footnote_glyph {
+#tswyizjlej .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }

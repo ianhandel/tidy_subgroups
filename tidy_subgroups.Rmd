@@ -52,11 +52,11 @@ result <- filters %>%
   filter(term == "displ")
 ```
 
-```{r}
+```{r, results = "asis"}
 result %>%
   select(filter, n, term, estimate, std.error, p.value) %>%
   mutate_if(is_double, round, 3) %>% 
-  gt::gt(groupname_col = vars(filter)) 
+  gt::gt(groupname_col = vars(filter))
 ```
 
 ```{r}
