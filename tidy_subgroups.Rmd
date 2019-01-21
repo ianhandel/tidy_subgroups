@@ -2,7 +2,7 @@
 title: "Tidy Subgroup Analysis"
 author: "Ian Handel"
 date: "21/01/2019"
-output: html_document
+output: github_document
 ---
 
 ```{r}
