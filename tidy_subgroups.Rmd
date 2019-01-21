@@ -52,7 +52,7 @@ result <- filters %>%
   filter(term == "displ")
 ```
 
-```{r, results = "asis"}
+```{r}
 result %>%
   select(filter, n, term, estimate, std.error, p.value) %>%
   mutate_if(is_double, round, 3) %>% 

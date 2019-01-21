@@ -76,7 +76,7 @@ result %>%
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#tswyizjlej .gt_table {
+#kjgjkqboqo .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -95,13 +95,13 @@ result %>%
   /* table.border.top.color */
 }
 
-#tswyizjlej .gt_heading {
+#kjgjkqboqo .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#tswyizjlej .gt_title {
+#kjgjkqboqo .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -112,7 +112,7 @@ result %>%
   border-bottom-width: 0;
 }
 
-#tswyizjlej .gt_subtitle {
+#kjgjkqboqo .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -123,7 +123,7 @@ result %>%
   border-top-width: 0;
 }
 
-#tswyizjlej .gt_bottom_border {
+#kjgjkqboqo .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -132,7 +132,7 @@ result %>%
   /* heading.border.bottom.color */
 }
 
-#tswyizjlej .gt_column_spanner {
+#kjgjkqboqo .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -140,7 +140,7 @@ result %>%
   padding-bottom: 4px;
 }
 
-#tswyizjlej .gt_col_heading {
+#kjgjkqboqo .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -153,11 +153,11 @@ result %>%
   margin: 10px;
 }
 
-#tswyizjlej .gt_sep_right {
+#kjgjkqboqo .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#tswyizjlej .gt_group_heading {
+#kjgjkqboqo .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -181,7 +181,7 @@ result %>%
   vertical-align: middle;
 }
 
-#tswyizjlej .gt_empty_group_heading {
+#kjgjkqboqo .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -205,29 +205,29 @@ result %>%
   vertical-align: middle;
 }
 
-#tswyizjlej .gt_striped {
+#kjgjkqboqo .gt_striped {
   background-color: #f2f2f2;
 }
 
-#tswyizjlej .gt_row {
+#kjgjkqboqo .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#tswyizjlej .gt_stub {
+#kjgjkqboqo .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#tswyizjlej .gt_stub.gt_row {
+#kjgjkqboqo .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#tswyizjlej .gt_summary_row {
+#kjgjkqboqo .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -236,13 +236,13 @@ result %>%
   /* summary_row.text_transform */
 }
 
-#tswyizjlej .gt_first_summary_row {
+#kjgjkqboqo .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#tswyizjlej .gt_table_body {
+#kjgjkqboqo .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -257,50 +257,50 @@ result %>%
   /* field.border.bottom.color */
 }
 
-#tswyizjlej .gt_footnote {
+#kjgjkqboqo .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#tswyizjlej .gt_sourcenote {
+#kjgjkqboqo .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#tswyizjlej .gt_center {
+#kjgjkqboqo .gt_center {
   text-align: center;
 }
 
-#tswyizjlej .gt_left {
+#kjgjkqboqo .gt_left {
   text-align: left;
 }
 
-#tswyizjlej .gt_right {
+#kjgjkqboqo .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tswyizjlej .gt_font_normal {
+#kjgjkqboqo .gt_font_normal {
   font-weight: normal;
 }
 
-#tswyizjlej .gt_font_bold {
+#kjgjkqboqo .gt_font_bold {
   font-weight: bold;
 }
 
-#tswyizjlej .gt_font_italic {
+#kjgjkqboqo .gt_font_italic {
   font-style: italic;
 }
 
-#tswyizjlej .gt_super {
+#kjgjkqboqo .gt_super {
   font-size: 65%;
 }
 
-#tswyizjlej .gt_footnote_glyph {
+#kjgjkqboqo .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }
