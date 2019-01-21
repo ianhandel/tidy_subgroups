@@ -1,0 +1,68 @@
+---
+title: "Tidy Subgroup Analysis"
+author: "Ian Handel"
+date: "21/01/2019"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(broom)
+```
+
+```{r}
+filters <- tibble(groups = c(
+  quo(manufacturer %in% c("audi", "volkswagen")),
+  quo(year == 1999),
+  quo(year == 2008),
+  quo(class == "compact"),
+  quo(class == "minivan")
+))
+```
+
+```{r}
+filter_mpg <- function(filter){
+  filter(mpg, !!filter)
+}
+```
+
+```{r}
+plot_mpg <- function(df){
+  df %>% 
+    gather(type, mpg, cty, hwy) %>% 
+  ggplot() +
+    aes(displ, mpg, colour = type) +
+    geom_point() +
+    labs(title = "MPG by engine size",
+         x = "Engine size (L)",
+         y = "mpg",
+         colour = "")
+}
+```
+
+```{r}
+result <- filters %>%
+  mutate(filter = map_chr(groups, quo_name)) %>% 
+  mutate(subdata = map(groups, filter_mpg)) %>%
+  mutate(n = map_int(subdata, nrow)) %>% 
+  mutate(plots = map(subdata, plot_mpg)) %>% 
+  mutate(models = map(subdata, ~lm(cty ~ displ, data = .))) %>% 
+  mutate(coef = map(models, tidy)) %>% 
+  unnest(coef, .drop = FALSE) %>% 
+  filter(term == "displ")
+```
+
+```{r}
+result %>%
+  select(filter, n, term, estimate, std.error, p.value) %>%
+  mutate_if(is_double, round, 3) %>% 
+  gt::gt(groupname_col = vars(filter)) 
+```
+
+```{r}
+map(result$plots, print)
+```
+
+
+
+
